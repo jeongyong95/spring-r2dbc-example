@@ -1,1 +1,11 @@
+logging:
+  level:
+      org:
+        springframework:
+          r2dbc: debug
 
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/admin
+    username: admin
+    password: admin

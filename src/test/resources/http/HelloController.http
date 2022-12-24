@@ -1,0 +1,5 @@
+### hello
+GET {{baseUrl}}/hello
+
+### 사용자 저장
+POST {{baseUrl}}/users
